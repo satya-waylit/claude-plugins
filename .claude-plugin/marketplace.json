@@ -19,6 +19,32 @@
         "sha": "aedac67c19bee2f4b26a94ccf5bbf9d90cfb84da"
       },
       "homepage": "https://github.com/satya-waylit/impasse"
+    },
+    {
+      "name": "pyrefly-lsp",
+      "description": "Python language server (Pyrefly) — fast type checking and code intelligence",
+      "version": "1.0.0",
+      "author": {
+        "name": "Michael Denyer"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/satya-waylit/pyrefly-lsp-cc-plugin.git",
+        "sha": "027cb2d4d05074e728a522ad907d31e3b4b50832"
+      },
+      "category": "development",
+      "strict": false,
+      "homepage": "https://github.com/satya-waylit/pyrefly-lsp-cc-plugin",
+      "lspServers": {
+        "pyrefly": {
+          "command": "${CLAUDE_PLUGIN_ROOT}/plugins/pyrefly-lsp/bin/pyrefly-lsp",
+          "args": [],
+          "extensionToLanguage": {
+            ".py": "python",
+            ".pyi": "python"
+          }
+        }
+      }
     }
   ]
 }
