@@ -1,6 +1,6 @@
 {
   "$schema": "https://code.claude.com/schemas/marketplace.json",
-  "name": "claude-plugins",
+  "name": "waylit",
   "description": "WayLit's Claude Code plugin marketplace",
   "owner": {
     "name": "WayLit"
