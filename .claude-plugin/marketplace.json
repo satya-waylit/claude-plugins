@@ -1,0 +1,24 @@
+{
+  "$schema": "https://code.claude.com/schemas/marketplace.json",
+  "name": "claude-plugins",
+  "description": "WayLit's Claude Code plugin marketplace",
+  "owner": {
+    "name": "WayLit"
+  },
+  "plugins": [
+    {
+      "name": "impasse",
+      "description": "Get an independent second opinion on any high-stakes artifact — a decision, an essay, a research claim, a dataset, or code — from a cross-provider AI reviewer, verified and reconciled before anything reaches you.",
+      "author": {
+        "name": "Moving Average",
+        "url": "https://www.movingavg.com/"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/satya-waylit/impasse.git",
+        "sha": "aedac67c19bee2f4b26a94ccf5bbf9d90cfb84da"
+      },
+      "homepage": "https://github.com/satya-waylit/impasse"
+    }
+  ]
+}
