@@ -28,8 +28,10 @@
         "name": "Michael Denyer"
       },
       "source": {
-        "source": "url",
+        "source": "git-subdir",
         "url": "https://github.com/satya-waylit/pyrefly-lsp-cc-plugin.git",
+        "path": "plugins/pyrefly-lsp",
+        "ref": "main",
         "sha": "027cb2d4d05074e728a522ad907d31e3b4b50832"
       },
       "category": "development",
@@ -37,7 +39,7 @@
       "homepage": "https://github.com/satya-waylit/pyrefly-lsp-cc-plugin",
       "lspServers": {
         "pyrefly": {
-          "command": "${CLAUDE_PLUGIN_ROOT}/plugins/pyrefly-lsp/bin/pyrefly-lsp",
+          "command": "${CLAUDE_PLUGIN_ROOT}/bin/pyrefly-lsp",
           "args": [],
           "extensionToLanguage": {
             ".py": "python",
